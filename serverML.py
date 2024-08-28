@@ -8,7 +8,7 @@ from werkzeug.utils import secure_filename
 
 # load model
 
-dt = joblib.load('dt1_ml.joblib')
+dt = joblib.load('dt1.joblib')
 
 # Create Flask app
 
